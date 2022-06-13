@@ -1,0 +1,33 @@
+h1 {
+  color: aqua;
+  text-align: center;
+  font-family: sans-serif;
+  background-color: #f7f7f7;
+  border: 5px solid red;
+}
+
+button {
+  cursor: pointer;
+  border-radius: 8px;
+  text-transform: uppercase;
+  font-family: sans-serif;
+  background-color: transparent;
+
+  font-size: 15px;
+}
+
+button:hover {
+  background-color: green;
+  color: white;
+  animation-name: rotate;
+  animation-duration: 0.7s;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
